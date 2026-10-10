@@ -192,5 +192,5 @@ Place `train.csv`, `test.csv` and `sample_submission.csv` in the project folder,
 
 **Krishkumar Rathod** — B.Sc. AI & ML, MSc Data Science (Jain University, Bengaluru)
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-profile](https://linkedin.com/in/your-profile)
+- GitHub: [@Krish Rathod](https://github.com/RathodKrrish)
+- LinkedIn: [Krish Rathod](https://www.linkedin.com/in/krish-rathod-a88383321/?isSelfProfile=true)
