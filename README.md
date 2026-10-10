@@ -48,22 +48,22 @@ The CSV files are not included in this repo. Download `train.csv`, `test.csv` an
 ### Daily total sales
 Strong yearly seasonality with a steady upward trend across the years.
 
-![Daily Total Sales](images/Daily_Total_Sales_Over_Time.jpg)
+![Daily Total Sales](images/DailyTotalSalesOverTime.jpg)
 
 ### 30-day rolling average
 The rolling average makes the pattern clear: sales climb every spring, **peak around July/August**, and fall to a low around **January**. The yearly peak rises from ~32k (2014) to ~38k (2017) total daily units.
 
-![30-Day Rolling Average](images/Average_Daily_Sales.jpg)
+![30-Day Rolling Average](images/AverageDailySales.jpg)
 
 ### Monthly seasonality
 Average sales per store-item peak in **July (~67)** and are lowest in **January (~35)** and **December (~39)**, almost a 2x swing.
 
-![Average Sales by Month](images/Average_Monthly_Sales.jpg)
+![Average Sales by Month](images/AverageMonthlySales.jpg)
 
 ### Weekday pattern
 Sales rise steadily through the week: **Monday is lowest (~41)** and **Sunday is highest (~62)**, roughly 50% higher.
 
-![Average Sales by Weekday](images/Average_Sales_By_Day_of_Week.jpg)
+![Average Sales by Weekday](images/AverageSalesByDayofWeek.jpg)
 
 ### Sales distribution
 Raw sales are right-skewed; applying `log1p` gives a near-normal shape, so the model is trained on `log1p(sales)` and predictions are converted back with `expm1`.
