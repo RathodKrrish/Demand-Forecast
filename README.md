@@ -128,10 +128,10 @@ Across the 20 trials, sMAPE ranged from **12.37% to 13.72%**, so the model is st
 
 ## 🖥️ Streamlit App
 
-`app.py` is an interactive dashboard where you upload your own `train.csv` and `test.csv`, tune the model and download predictions.
+`app.py` is an interactive dashboard that automatically loads `train.csv` and `test.csv` statically, allowing you to tune hyperparameters and generate predictions with one click.
 
 **Features**
-- Upload `train.csv` (needs `date, store, item, sales`) and `test.csv` (needs `date, store, item`)
+- **Static Dataset Loading**: Automatically loads `train.csv` and `test.csv` (no file upload required by the user)
 - Controls: boosting rounds (100–700), learning rate (0.02–0.1), tree depth (3–10)
 - Metrics: validation sMAPE, mean-baseline sMAPE, improvement vs. baseline
 - Charts: predicted daily total sales, demand by store, demand by item

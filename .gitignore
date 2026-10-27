@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+.streamlit/secrets.toml
+*.pyc
+.ipynb_checkpoints/
+train_fe.csv
+test_fe.csv
+New folder/
+main.py
+DemandForecast.ipynb
+sample_submission.csv
+submission.csv
+tuned_xgboost_model.json
